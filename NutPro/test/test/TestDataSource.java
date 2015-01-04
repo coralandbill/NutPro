@@ -13,6 +13,6 @@ public class TestDataSource {
 		JsonLoader jsonLoader = new JsonLoader("ioc/dataSource.js");
 		NutIoc ioc = new NutIoc(jsonLoader);
 		Dao dao = ioc.get(Dao.class);
-		System.out.println("=========dao:"+dao);
+		System.out.println("===========dao:"+dao);
 	}
 }
